@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TechSummit 2025</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+      <div class="container custom-container">
+        <a class="navbar-brand fw-semibold" href="#">TechSummit 2025</a>
+
+        <ul class="navbar-nav ms-auto gap-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#speakers">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="#schedule">Schedule</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="container custom-container my-5">
+      <div class="hero-card text-center">
+        <h1 class="fw-bold">Join the Revolution</h1>
+        <p class="hero-subtitle">
+          The biggest HTML & CSS conference of the year.
+        </p>
+        <button class="btn btn-primary px-4">Reserve Your Seat</button>
+      </div>
+    </section>
+
+    <!-- BILLING & PERKS -->
+    <section class="container custom-container mb-5">
+      <div class="row g-4">
+        <!-- BILLING -->
+        <div class="col-md-8">
+          <h5 class="section-title">Billing Address</h5>
+
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">First name</label>
+                  <input type="text" class="form-control" />
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label">Last name</label>
+                  <input type="text" class="form-control" />
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="you@example.com"
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label">Country</label>
+                  <select class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Philippines</option>
+                    <option>USA</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label">Zip</label>
+                  <input type="text" class="form-control" />
+                </div>
+
+                <div class="col-12 border-top border-bottom py-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" />
+                    <label class="form-check-label">
+                      Shipping address is the same as my billing address
+                    </label>
+                  </div>
+
+                  <div class="form-check mt-2">
+                    <input class="form-check-input" type="checkbox" />
+                    <label class="form-check-label">
+                      Save this information for next time
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <button class="btn btn-primary w-100">
+                    Continue to checkout
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- EVENT PERKS -->
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="text-primary fw-semibold mb-0">Event Perks</h5>
+            <span class="badge bg-primary rounded-pill px-3"> 3 </span>
+          </div>
+
+          <ul class="list-group shadow-sm">
+            <li class="list-group-item d-flex justify-content-between">
+              <div>
+                <h6 class="mb-0">Workshops</h6>
+                <small class="text-muted"> Hands-on Bootstrap training </small>
+              </div>
+              <span class="text-muted">$0</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between">
+              <div>
+                <h6 class="mb-0">Free Lunch</h6>
+                <small class="text-muted">Gourmet catering</small>
+              </div>
+              <span class="text-muted">$0</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div>
+                <h6 class="text-success mb-0">Early Bird Promo</h6>
+                <small class="text-success"> CODE: HTML5 </small>
+              </div>
+              <span class="text-success">- $20</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (USD)</span>
+              <strong>$150</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center py-4">
+      <p class="footer-text">© 2025 TechSummit</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#Privacy">privacy</a>
+        <a href="#Terms">terms</a>
+        <a href="#Support">support</a>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
